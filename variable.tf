@@ -11,7 +11,7 @@ variable "ssm_alb" {
 }
 
 variable "ssm_listener" {
-  default = "/linuxtips/ecs/lb/listerner"
+  default = "/linuxtips/ecs/lb/listener"
 }
 
 variable "ssm_alb_internal" {
@@ -19,7 +19,7 @@ variable "ssm_alb_internal" {
 }
 
 variable "ssm_listener_internal" {
-  default = "/linuxtips/ecs/lb/internal/listerner"
+  default = "/linuxtips/ecs/lb/internal/listener"
 }
 
 variable "ssm_vpc_id" {

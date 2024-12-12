@@ -1,6 +1,6 @@
 module "calories" {
   # source                      = "github.com/manoelgrj/curso-containers-ecs-service-module?ref=v1"
-  source         = "/home/manoel/AWS/LinuxTips/curso-containers-ecs-service-module"
+  source       = "/home/manoel/AWS/LinuxTips/curso-containers-ecs-service-module"
   region       = var.region
   cluster_name = var.cluster_name
 
